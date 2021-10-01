@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+html {
+    /* prevents padding to prevent extra height or width added to page */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* full height of screen */
+    min-height: 100vh; /* vh = viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 37, 37);
+}
